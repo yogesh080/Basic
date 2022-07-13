@@ -80,3 +80,33 @@ upcasting :
 	creating a object of child class using refference of parent class;
 downcasting : 
 	creating a object of parent class using refference of child class;
+	
+	
+	
+
+
+
+Generic-
+	public int GenericFun<T>(T value)  -   Here T is the data type int , string, bool , decimal etc which we provide so that our coding become easier to use
+	
+	
+	
+	
+	
+REGEX - Patterns or Regular expressions are special characters which help search data, matching complex patterns.
+Regular expressions are shortened as 'regexp' or 'regex’.	
+
+.NET Reflection makes it possible to View Information at Runtime, without knowing at Compile Time:
+• Inspect classes,
+• Inspect interfaces,
+• Inspects fields and
+• Inspect methods
+example - Using System.Object.GetType()
+
+
+DATA Structures- Linear(linkedlist,stacks and qeous) and non-linear(tree and graph are used in Non-Linear)
+
+Collections - framework that provides readymade classes
+using interfaces to store and manipulate group of objects.
+
+	
