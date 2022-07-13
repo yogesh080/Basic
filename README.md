@@ -64,8 +64,10 @@ OOPs : object oriented Programming system
 	6.Encapsulation
 
 this : => cotains current object address
+
 static : => used to declare class level members
-Access Modifiers : 
+
+Access Modifiers : => 
 	public : it is available for all classes              : High
 	internal : it is available inside a assembly/project  : littile than Public
 	protected : it is available inheriting classes		  : low
