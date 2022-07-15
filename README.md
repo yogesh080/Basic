@@ -110,5 +110,52 @@ DATA Structures- Linear(linkedlist,stacks and qeous) and non-linear(tree and gra
 
 Collections - framework that provides readymade classes
 using interfaces to store and manipulate group of objects.
-
 	
+	
+Reflection is a process of describing metadata of types , methods and fields at runtime.
+	name space used (system.Reflection).
+	uses in lateBinding
+
+
+Annotation -  means creating some kind of property or validation over class
+	Ex-		
+	using System.ComponentModel.DataAnnotations;
+	namespace annotation
+	{
+	    internal class Program
+	    {
+		static void Main(string[] args)
+		{   //step 1 create object
+		    Customer obj = new Customer();
+		    obj.CustomerName = "";
+
+		    //step 2 create validater class 
+		    var context = new ValidationContext(obj, null, null);
+
+		    // step 3 pass validater class
+		    var result = new List<ValidationResult>();
+		    bool IsValid = Validator.TryValidateObject(obj, context, result, true);
+		    Console.WriteLine(IsValid);
+		    foreach (var item in result) 
+		    {
+			Console.WriteLine(item.ErrorMessage);
+
+		    }
+		    Console.Read();
+
+		}
+	    }
+	    public class Customer
+	    {
+		private string _CustomerName;
+		[Required]
+		public string CustomerName
+		{
+		    get { return _CustomerName; }
+		    set { _CustomerName = value; }
+
+		}
+	    }
+	}
+	
+garbage - To create garbage collection	
