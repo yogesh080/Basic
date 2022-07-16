@@ -158,4 +158,13 @@ Annotation -  means creating some kind of property or validation over class
 	    }
 	}
 	
-garbage - To create garbage collection	
+garbage - To create garbage collection.
+	
+	
+Lambda Expression - 
+		it is simply a function where we use ' => ' for repressenting and after that we can simply give expression 
+		ex- input => x*x;
+	
+I/O Stream -	
+	A file is a collection of data stored in a disk with a nameand a directory. When file is opened for reading or writing , it becomes a stream.
+	
