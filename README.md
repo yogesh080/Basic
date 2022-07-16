@@ -31,7 +31,9 @@ OOPs : object oriented Programming system
 
 
 	(4) Abstraction :
-			Means Displaying what is necessary and hiding the unnecessary things to outside . Hiding can be achieved by using "private" access modifier.
+			Means Displaying what is necessary and hiding the unnecessary things to outside . Hiding can be achieved by using "private","public" etc access 			modifier.
+			Hiding implementation details from user
+			Ex- Console.write();
 				i) interfaces : is also a type , contains abstractMethods
 					abstactmethod : which has only defination no any implementation
 
@@ -50,6 +52,9 @@ OOPs : object oriented Programming system
 				
 	5.Polymorphisum : 
 		-> it is proces of doing a work/functionality in many ways
+		*Two type of Polymorphisum -
+			Runtime(dynamic) achived by method over-riding
+			compile(static) achieved by using method overloading
 		1. method overloading - same method different parameter
 			-> by changing the sigature : 
 				Sinature : 
@@ -59,9 +64,27 @@ OOPs : object oriented Programming system
 								type of para
 								order of para
 		2. method overriding - Parent method is override by child method.
+			namespace methodoverriding
+			{
+			    class Animal
+			    {
+				public void Eat()
+				{
+				    Console.WriteLine("animal is eating");
+				}
+			    }
+			    class dog:Animal
+			    {
+				static void Main(string[] args)
+				{
+				    dog Tommy = new dog(); 
+				    Tommy.Eat();
+				}
+			    }
+			}
 
 		
-	6.Encapsulation :
+	6.Encapsulation : Hides the unnecessary methods (Ex- When we create method dont want to display method so we use display method is Encapsulation)
 	
 
 this : => cotains current object address
@@ -121,6 +144,7 @@ Collections - 	framework that provides readymade classes
 Reflection is a process of describing metadata of types , methods and fields at runtime.
 	name space used (system.Reflection).
 	uses in lateBinding
+	Ex - Name and FullName
 
 
 Annotation -  means creating some kind of property or validation over class
