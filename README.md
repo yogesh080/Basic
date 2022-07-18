@@ -195,5 +195,9 @@ Lambda Expression -
 		it is simply a function where we use ' => ' for repressenting and after that we can simply give expression 
 		ex- input => x*x;
 	
+	
+
+	
+	
 
 	
