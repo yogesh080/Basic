@@ -113,6 +113,13 @@ downcasting :
 	creating a object of parent class using refference of child class;
 	
 	
+Boxing :
+	Object to value type
+unboxing :
+	Value type to Object
+
+	
+	
 	
 
 
@@ -195,8 +202,23 @@ Lambda Expression -
 		it is simply a function where we use ' => ' for repressenting and after that we can simply give expression 
 		ex- input => x*x;
 	
+
+	
+SOLID Design Principle-
+	S - Class should only have a single Responsibility
+		Single reason for change in class
+		keep it simple
+		Ex- AddEntry and trackEntry are different so diff class.
+	O -  Open close principle
+		Should be open for extension but closed for modification.
+	L - Liskov Substitution Principle
+		Objects in program should be replaceable with Instances of their
+		subtypes without Altering the correctness of thr programe.
+	I - Don't create one fatty Interface instade we can create small small interfaces
+	D - Dependence should be depend on Abstaraction.	
 	
 
+DRY Principle - Don't Repeat Yourself	
 	
 	
 
